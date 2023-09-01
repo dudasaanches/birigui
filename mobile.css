@@ -1,0 +1,15 @@
+@media (max-width: 321px) {
+    .imagens, .part1, .local{
+        display: block;
+    }
+    .reco1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        gap: 10px;
+    }
+    iframe {
+        width: 250px;
+        padding: 5px;
+    }
+}

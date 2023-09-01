@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif; 
+}
+
+:root {
+    --cor-azul: #19ade4;
+    --cor-roxo: #63318a;
+    --cor-rosa: #e72479;
+    --cor-amarelo: #f3b635;
+    --cor-verde: #208f37;
+}
+
+.banner{
+    background-image: url(img/banner-4.jpg);
+    width: 990px;
+    height: 470px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.btn{
+    background-color: #19ade4;
+    padding: 15px;
+    color: white;
+    width: 160px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+#i{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rosa {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    background-color: #E72479;
+    padding: 0px 100px;
+    color: white;
+    align-items: center;
+}
+
+.font3{
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.amarelo img, .roxo img, .verde img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 31px;
+}
+
+.amarelo h4, .roxo h4, .verde h4{
+    text-align: center;
+}
+.amarelo{
+    background-color: #f3b635;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.escrita{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 39px;
+}
+
+.escrita2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 39px;
+}
+
+.roxo{
+    background-color: #63318a;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.verde{
+    background-color: #208f37;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.alguma_coisa {
+    display: flex;
+}
+
+.seculo{
+    padding: 10px;
+}
+
+.banner2 img{
+    width: 700px;
+}
+.selo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.selo:hover #a{
+    transform: scale(1.1);
+    position: absolute;
+    z-index: 1;
+    margin-left: -5vw;
+}
+.selo:hover #b{
+    transform: scale(1.2);
+    position: relative;
+    z-index: 1;
+    margin-left: 5vw;
+}
+.selo img{
+    width: 320px;
+}
+#a{
+    position: absolute;
+    z-index: 1;
+    margin-left: 10vw;
+    transition: 1s;
+}
+#b{
+    position: relative;
+    transition: 1s;
+}
+#banner2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
